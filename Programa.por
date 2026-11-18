@@ -1,9 +1,10 @@
 programa {
   funcao inicio() {
     menuPrincipal()
+    
   }
 
-
+    
     funcao menuPrincipal() {
       escreva("=== BEM-VINDO À NOSSA LOJA VIRTUAL ===\n")
 			escreva("------------------------------------\n")
@@ -15,9 +16,16 @@ programa {
 			escreva("0. Finalizar Compra e Ir ao Pagamento\n")
 			escreva("Escolha uma opção: \n")
     } 
+      funcao menuRemoveItem() {
+          escreva("--- REMOVER ITEM DO CARRINHO ---\n")
+					escreva("1. Camisa Esportiva (No carrinho:)\n")
+					escreva("2. Boné Casual (No carrinho:)\n")
+					escreva("3. Tênis de Corrida (No carrinho:)\n")
+					escreva("Escolha o item que deseja remover:\n")
+}
 
 
-
+  
 
 
 }
